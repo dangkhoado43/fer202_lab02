@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.main-title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.service {
+    background-color: #ccc;
+    padding: 50px 0;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.book-online {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.book-content {
+    margin: 0 auto;
+    background-color: #86A7FC;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.book-label {
+    font-weight: bold;
+}
+
+.book-control {
+    margin-bottom: 20px;
+}
+
+#message {
+    height: 200px;
+}
+
+.products {
+    background-color: #333;
+    padding: 50px 0;
+}
+
+.products .title {
+    color: #fff;
+}
+
+.products #products .carousel-control-next-icon {
+    padding-left: 20px;
+}
+
+#myModal .modal-title {
+    background-color: #834a86;
+    border-radius: 3rem;
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+}
+
+#myModal .signup a {
+    color: #834a86;
+    text-decoration: none;
+}
+
+#myModal .login-google {
+    background-color: #f8d7da;
+}
+
+#myModal .login-google a {
+    color: #333;
+}
+
+#myModal .login-google i {
+    color: #e94235;
+}
+
+#myModal .login-google:hover {
+    background-color: #e94235;
+}
+
+#myModal .login-google:hover a, #myModal .login-google:hover a i, #myModal .login-facebook:hover a {
+    color: #fff;
+}
+
+#myModal .login-facebook {
+    background-color: #b9d5f3;
+}
+
+#myModal .login-facebook:hover {
+    background-color: #0d6efd;
+}
+
+#myModal .signin {
+
+}

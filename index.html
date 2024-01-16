@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Salon & Spa | Beauty and Spa Salon in NYC</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav class="navbar navbar-expand-lg " style="background-color: #F8F4EC;">
+            <div class="container-fluid">
+                <a class="navbar-brand main-title" href="/">
+                    Healthy
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="/services" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Spa Services</a></li>
+                                <li><a class="dropdown-item" href="#">Massage</a></li>
+                                <li><a class="dropdown-item" href="#">Face</a></li>
+                                <li><a class="dropdown-item" href="#">Nail</a></li>
+                                <li><a class="dropdown-item" href="#">Hair</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Special offers</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Products
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Milbon</a></li>
+                                <li><a class="dropdown-item" href="#">Chain</a></li>
+                                <li><a class="dropdown-item" href="#">Moroccanoil</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Sales</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                About Us
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Company</a></li>
+                                <li><a class="dropdown-item" href="#">Development History</a></li>
+                                <li><a class="dropdown-item" href="#">Development Strategy</a></li>
+                                <li><a class="dropdown-item" href="#">Administration System</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Outstanding
+                                        Achievements</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                More
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Gallery</a></li>
+                                <li><a class="dropdown-item" href="#">Media & Press</a></li>
+                                <li><a class="dropdown-item" href="#">Recruit</a></li>
+                                <li><a class="dropdown-item" href="#">Nail School</a></li>
+                                <li><a class="dropdown-item" href="#">Reservation</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search" action="/search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-success" type="submit">Search</button>
+                    </form>
+                    <div class="d-flex mt-md-2 ms-lg-2 mt-lg-0">
+                        <button id="loginButton" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#myModal">Login</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div id="carouselSlider" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselSlider" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselSlider" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselSlider" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./imgs/brand/spa_sofia.jpg" class="d-block w-100" alt="spa" style="height: 630px;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Sofia Petrova Moscow</h1>
+                        <p>SALON & SPA</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./imgs/brand/nail_meiling.jpg" class="d-block w-100" alt="nail" style="height: 630px;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Mei Ling Chen Shanghai</h1>
+                        <p>NAIL</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./imgs/brand/massage_leila.jpg" class="d-block w-100" alt="massage"
+                        style="height: 630px;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Leila Ibrahim Cairo</h1>
+                        <p>MASSAGE</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselSlider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselSlider" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section class="service">
+        <div class="container overflow-hidden text-center">
+            <h2 class="title">
+                OUR SERVICES
+            </h2>
+            <p class="subtitle">Let's start ordering with HEALTHY app to save a huge money today</p>
+            <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-evenly">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./imgs/services/spa/eyelash.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Spa</h5>
+                            <p class="card-text">Eyelash Spa</p>
+                            <a href="#" class="btn btn-primary">MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./imgs/services/hair/aromatic_head_spa.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Hair</h5>
+                            <p class="card-text">Aromatic Head Spa</p>
+                            <a href="#" class="btn btn-primary">MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./imgs/services/massage/bamboo_massage.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Massage</h5>
+                            <p class="card-text">Bamboo Massage</p>
+                            <a href="#" class="btn btn-primary">MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./imgs/services/face/facial-massage-treatmen.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Face</h5>
+                            <p class="card-text">Facial Massage Treatment</p>
+                            <a href="#" class="btn btn-primary">MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./imgs/services/face/facial-massage-treatmen.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Nail</h5>
+                            <p class="card-text">Facial Massage Treatment</p>
+                            <a href="#" class="btn btn-primary">MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products">
+        <h2 class="title overflow-hidden text-center">
+            PRODUCTS
+        </h2>
+        <p class="subtitle overflow-hidden text-center">Let's start ordering with HEALTHY app to save a huge money today
+        </p>
+        <div id="products" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container-sm d-lg-flex justify-content-around">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./imgs/products/milbon/Plarmia_Hairserum_M_Shampoo.jpg" class="card-img-top"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Milbon</h5>
+                                <p class="card-text">Plarmia Hairserum M Shampoo</p>
+                                <a href="#" class="btn btn-primary">View details</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="./imgs/products/milbon/Plarmia_Hairserum_Treatment.jpg" class="card-img-top"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Milbon</h5>
+                                <p class="card-text">Plarmia Hairserum Treatment</p>
+                                <a href="#" class="btn btn-primary">View details</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="./imgs/products/milbon/SMOOTH_Luminous-Bodifying-Oil.jpg" class="card-img-top"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Milbon</h5>
+                                <p class="card-text">Luminous Bodifying Oil</p>
+                                <a href="#" class="btn btn-primary">View details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container-sm d-flex justify-content-around">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./imgs/products/milbon/REPAIR_Restorative-Blowout-Primer.jpg" class="card-img-top"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Milbon</h5>
+                                <p class="card-text">Restorative Blowout Primer</p>
+                                <a href="#" class="btn btn-primary">View details</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="./imgs/products/milbon/SMOOTH_Smoothing-Treatment.jpg" class="card-img-top"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Milbon</h5>
+                                <p class="card-text">Smoothing Treatment</p>
+                                <a href="#" class="btn btn-primary">View details</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="./imgs/products/milbon/SMOOTH_Luminous-Softening-Oil.jpg" class="card-img-top"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Milbon</h5>
+                                <p class="card-text">Luminous Softening Oil</p>
+                                <a href="#" class="btn btn-primary">View details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container-sm d-flex justify-content-around">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./imgs/products/moroccanoil/curlenhancingshampoo.jpeg" class="card-img-top"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Moroccanoil</h5>
+                                <p class="card-text">Curlen Hancing Shampoo</p>
+                                <a href="#" class="btn btn-primary">View details</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="./imgs/products/moroccanoil/extravolume_shamp_250.jpeg" class="card-img-top"
+                                alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Moroccanoil</h5>
+                                <p class="card-text">Extravolume Shampoo 250</p>
+                                <a href="#" class="btn btn-primary">View details</a>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <img src="./imgs/products/moroccanoil/hair_hydratingstylingcream_1.jpeg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Moroccanoil</h5>
+                                <p class="card-text">Hair Hydrating Styling Cream</p>
+                                <a href="#" class="btn btn-primary">View details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#products" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#products" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section class="book-online">
+        <div class="container overflow-hidden text-center">
+            <h2 class="title">
+                ONLINE BOOKING
+            </h2>
+            <div class="book-content">
+                <form action="/" method="post">
+                    <div class="row row-cols-1 row-cols-md-3">
+                        <div class="col">
+                            <label for="your-name" class="form-label book-label">Name <span
+                                    style="color: red;">*</span></label>
+                            <input type="text" class="form-control book-control" id="your-name"
+                                placeholder="Your Name *" required>
+                        </div>
+                        <div class="col">
+                            <label for="your-email" class="form-label book-label">Email <span
+                                    style="color: red;">*</span></label>
+                            <input type="email" class="form-control book-control" id="your-email"
+                                placeholder="Your Email *" required>
+                        </div>
+                        <div class="col">
+                            <label for="your-service" class="form-label book-label">Service <span
+                                    style="color: red;">*</span></label>
+                            <select class="form-select" id="your-service">
+                                <option selected>Select a Service</option>
+                                <option value="1">Spa</option>
+                                <option value="2">Hair</option>
+                                <option value="3">Massage</option>
+                                <option value="4">Nail</option>
+                                <option value="5">Face</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-1">
+                        <div class="col">
+                            <label for="message" class="form-label book-label">Message <span
+                                    style="color: red;">*</span></label>
+                            <input type="text" class="form-control book-control" id="message"
+                                placeholder="Please write your comment" required>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer text-center text-lg-start text-white" style="background-color: #45526e">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+            <!-- Section: Links -->
+            <!--Grid row-->
+            <div class="row">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">
+                        HEALTHY COMPANY
+                    </h6>
+                    <p>
+                        Here you can use rows and columns to organize your footer
+                        content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit.
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+                <hr class="w-100 clearfix d-md-none" />
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">SERVICES</h6>
+                    <p>
+                        <a class="text-white" style="text-decoration: none;">Spa Service</a>
+                    </p>
+                    <p>
+                        <a class="text-white" style="text-decoration: none;">Massage</a>
+                    </p>
+                    <p>
+                        <a class="text-white" style="text-decoration: none;">Face</a>
+                    </p>
+                    <p>
+                        <a class="text-white" style="text-decoration: none;">Nail</a>
+                    </p>
+                    <p>
+                        <a class="text-white" style="text-decoration: none;">Hair</a>
+                    </p>
+                    <p>
+                        <a class="text-white" style="text-decoration: none;">Special Offers</a>
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+                <hr class="w-100 clearfix d-md-none" />
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">
+                        Products
+                    </h6>
+                    <p>
+                        <a class="text-white" href="/" style="text-decoration: none;">Milbon</a>
+                    </p>
+                    <p>
+                        <a class="text-white" style="text-decoration: none;">Chain</a>
+                    </p>
+                    <p>
+                        <a class="text-white" style="text-decoration: none;">Moroccanoil</a>
+                    </p>
+                    <p>
+                        <a class="text-white" style="text-decoration: none;">Sales</a>
+                    </p>
+                </div>
+
+                <!-- Grid column -->
+                <hr class="w-100 clearfix d-md-none" />
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                    <p><i class="fa-solid fa-house"></i> New York, NY 10012, US</p>
+                    <p><i class="fa-solid fa-envelope"></i> healthycompany1@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> + 01 234 567 88</p>
+                    <p><i class="fa-solid fa-fax"></i> + 01 234 567 89</p>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Section: Links -->
+
+            <hr class="my-3">
+
+            <div class="p-3 pt-0">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-7 col-lg-8 text-center text-md-start">
+                        <!-- Copyright -->
+                        <div class="p-3">
+                            © 2024 Copyright:
+                            <a class="text-white" href="/" style="text-decoration: none;">DDK</a>
+                        </div>
+                        <!-- Copyright -->
+                    </div>
+
+                    <div class="col-md-5 col-lg-4 ml-lg-0 text-center text-md-end">
+                        <!-- Facebook -->
+                        <a class="btn btn-outline-light btn-floating m-1 text-white" role="button"><i
+                                class="fa-brands fa-facebook"></i></a>
+
+                        <!-- Twitter -->
+                        <a class="btn btn-outline-light btn-floating m-1 text-white" role="button">
+                            <i class="fa-brands fa-twitter"></i></a>
+
+                        <!-- Google -->
+                        <a class="btn btn-outline-light btn-floating m-1 text-white" role="button"><i
+                                class="fa-brands fa-google"></i></a>
+
+                        <!-- Instagram -->
+                        <a class="btn btn-outline-light btn-floating m-1 text-white" role="button"><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Section: Copyright -->
+        </div>
+        <!-- Grid container -->
+    </section>
+
+    <div id="myModal" class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    </button>
+                </div>
+                <div class="modal-body mx-4">
+                    <div class="d-flex justify-content-center">
+                        <div class="modal-title d-flex justify-content-center"><i class="fa-regular fa-user" style="margin-top: 25px; color: #fff;"></i></div>
+                    </div>
+                    <h5 class="signup text-center mt-3"><a href="#">Have an account?</a></h5>
+                    <form class="form-login" role="login">
+                        <div class="mb-3 mt-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input id="email" type="email" class="form-control">
+                        </div>
+                        <div class="mb-3 mt-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input id="password" type="password" class="form-control">
+                        </div>
+                        <div class="form-group d-flex justify-content-between">
+                            <div class="col">
+                                <input id="remember" type="checkbox">
+                                <label for="remember" class="checkbox-wrap checkbox-primary">Remember Me
+                                </label>
+                            </div>
+                            <div class="col text-end">
+                                <a href="#" style="text-decoration: none; color: #834a86;">Forgot Password</a>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center rounded-pill mt-4" style="background-color: #834a86;">
+                            <button id="loginModalButton" class="btn signin" type="submit" style="color: #fff; font-weight: bold; font-size: 18px;">Sign in</button>
+                        </div>
+
+                        <p class="text-center mt-4">&mdash; Or Sign In With &mdash;</p>
+                        <div class="mb-3">
+                            <div class="social d-flex justify-content-around">
+                                <div class="login-facebook py-2 px-4" style="border-radius: 2rem;">
+                                    <a href="#" style="text-decoration: none;"><i class="fa-brands fa-facebook"></i>
+                                        Facebook</a>
+                                </div>
+                                <div class="login-google py-2 px-4" style="border-radius: 2rem;">
+                                    <a href="#" style="text-decoration: none;"><i class="fa-brands fa-google"></i>
+                                        Google</a>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('loginButton').addEventListener('click', function () {
+            $('#myModal').modal('show');
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
